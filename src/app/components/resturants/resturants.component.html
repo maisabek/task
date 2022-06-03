@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row row-cols-2 mt-5 g-3">
             <ng-container *ngIf="Resturants">
-                <div class="col-12 col-md-6 mt-5 ml-1 bg-white" *ngFor="let resturant of Resturants;let i=index">
+                <div class="col-12 col-md-6 mt-5 ml-1 bg-white p-3" *ngFor="let resturant of Resturants;let i=index">
                     <a routerLink="/ResturantDetails/{{resturant.restaurant_id}}">
                         <div class="img_container">
                             <img [src]="resturant.logo" class="w-100 h-100">
                         </div>
                         <div class="clearfix"></div>
-                        <div class="w-100 h-100 p-2 resturant_container">
+                        <div class="w-100 h-100 px-3 py-2 resturant_container">
 
                             <div class="mt-4 w-100">
                                 <div class="resturant_name">
@@ -17,8 +17,8 @@
                                 <app-stars></app-stars>
                             </div>
 
-                            <p class="text-muted h-25"> يقدم {{resturant.description}}</p>
-                            <div class="bg-light-danger float-start mx-4">
+                            <p class="text-muted" style="height: 116px;"> يقدم {{resturant.description}}</p>
+                            <div class="bg-light-danger float-start mx-4 mb-2">
                                 <i class="fa fa-heart-o text-danger" aria-hidden="true"></i>
                             </div>
                             <div class="clearfix"></div>
