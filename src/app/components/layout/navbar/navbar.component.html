@@ -4,13 +4,13 @@
     </a>
 
 
-    <div class="w-100" id="navbarSupportedContent">
+    <div class="d-flex w-100" id="navbarSupportedContent">
         <ul class="navbar-nav w-100">
             <li class="nav-item" *ngFor="let item of BranchesType;let i=index">
                 <a class="nav-link" [routerLink]="['/resturants',i]" routerLinkActive="active">{{ item.name }}</a>
             </li>
         </ul>
-        <div class="clearfix"></div>
+        <!-- <div class="clearfix"></div> -->
 
         <div class="dropdown d-none">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
