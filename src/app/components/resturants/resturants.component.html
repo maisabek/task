@@ -1,0 +1,37 @@
+<section class="resturants mt-5 mb-5" dir="rtl">
+    <div class="container">
+        <div class="row row-cols-2 mt-5 g-3">
+            <ng-container *ngIf="Resturants">
+                <div class="col-12 col-md-6 mt-5 ml-1 bg-white" *ngFor="let resturant of Resturants;let i=index">
+                    <a routerLink="/ResturantDetails/{{resturant.restaurant_id}}">
+                        <div class="img_container">
+                            <img [src]="resturant.logo" class="w-100 h-100">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="w-100 h-100 p-2 resturant_container">
+
+                            <div class="mt-4 w-100">
+                                <div class="resturant_name">
+                                    <h5 class="w-100"> مطعم {{resturant.name}} </h5>
+                                </div>
+                                <app-stars></app-stars>
+                            </div>
+
+                            <p class="text-muted h-25"> يقدم {{resturant.description}}</p>
+                            <div class="bg-light-danger float-start mx-4">
+                                <i class="fa fa-heart-o text-danger" aria-hidden="true"></i>
+                            </div>
+                            <div class="clearfix"></div>
+
+                        </div>
+                    </a>
+                </div>
+            </ng-container>
+            <!-- <ng-container *ngIf="Resturants.length == 0 ">
+                <div class="col-md-12">
+                    <h3 class="text-danger">لا يوجد مطاعم</h3>
+                </div>
+            </ng-container> -->
+        </div>
+    </div>
+</section>

@@ -1,0 +1,49 @@
+<section class="resturants mt-5" dir="rtl">
+    <div class="container">
+        <div class="row row-cols-2 mt-5 g-3">
+            <div class="col-12 col-md-6 mt-5 ml-1 bg-white" *ngFor="let resturant of Resturants;let i=index">
+                <div class="w-100 h-100 px-3 py-1 resturant_container">
+                    <div class="d-flex mt-4 w-100">
+                        <div class="resturant_name">
+                            <h5 class="w-100"> {{resturant.name}} </h5>
+                        </div>
+
+
+                    </div>
+                    <div>
+                        <app-stars></app-stars>
+                    </div>
+                    <div class="d-flex restaurant_details">
+
+                        <div class="resturant_products_name">
+                            <ng-container *ngFor="let product of resturant.products">
+                                <div class="d-flex">
+                                    <span class="text-muted w-75">{{product.name}} </span>
+                                    <span class="text-danger"> 
+                                     <span class="text-muted">السعر :</span> {{product.price}}
+                                    </span>
+
+                                </div>
+                            </ng-container>
+                        </div>
+                        <div class="img_container">
+                            <img [src]="resturant.image" class="w-100 h-100">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 mt-3">
+                        <button class="btn btn-order text-danger">
+                          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                          اطلب الأن
+
+                        </button>
+                        <div class="bg-light-danger float-start mx-3 mt-1">
+                            <i class="fa fa-heart-o text-danger" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

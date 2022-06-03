@@ -1,0 +1,25 @@
+        /* You can add global styles to this file, and also import other style files */
+
+        @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+        @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+        html,
+        body {
+            overflow-x: hidden;
+            width: 100hv;
+        }
+
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+         ::-webkit-scrollbar-thumb {
+            background: rgb(246, 137, 183);
+        }
+
+         ::-webkit-scrollbar-thumb:hover {
+            background: rgb(243, 111, 166);
+        }

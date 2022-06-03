@@ -1,0 +1,158 @@
+{
+    "data": [{
+            "id": 1,
+            "restaurant_id": 1,
+            "branch_type_id": 1,
+            "branch_type_name": "مطاعم وكافيهات",
+            "theme_code": "Restaurantcafe",
+            "sub_theme_code": "Restaurantcafe_pizza",
+            "name": "بيتزا تشاو",
+            "description": "بيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاو بيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاوبيتزا تشاو",
+            "logo": "http://backend.eizymenu.com/storage/restaurant/gaHQifLvfth4jhgTDivyd0vAVqPoFMWlDJgOuD0G.jpg",
+            "country": {
+                "id": 1,
+                "country_id": 1,
+                "name": "مصر"
+            },
+            "governorate": {
+                "id": 4,
+                "governorate_id": 4,
+                "name": "الإسكندرية"
+            },
+            "region": {
+                "id": 34,
+                "region_id": 34,
+                "name": "الإبراهيمية"
+            },
+            "address": "magnam",
+            "is_fav": false,
+            "rate": 0,
+            "rate_count": 0,
+            "open": false,
+            "link_google_play": "google",
+            "link_apple_store": "apple_store",
+            "qr_image": "http://backend.eizymenu.com/assets/images/no-image.png",
+            "lat": "-81.785206",
+            "lng": "144.218393"
+        },
+        {
+            "id": 2,
+            "restaurant_id": 2,
+            "branch_type_id": 1,
+            "branch_type_name": "مطاعم وكافيهات",
+            "theme_code": "Restaurantcafe",
+            "sub_theme_code": "Restaurantcafe_pasta",
+            "name": "بيتزا جونس",
+            "description": "بيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونسبيتزا جونس",
+            "logo": "http://backend.eizymenu.com/storage/restaurant/VElhZ5yViAIvDHxobrcRUp7gVmNWoww8sj9XEhcc.jpg",
+            "country": {
+                "id": 1,
+                "country_id": 1,
+                "name": "مصر"
+            },
+            "governorate": {
+                "id": 4,
+                "governorate_id": 4,
+                "name": "الإسكندرية"
+            },
+            "region": {
+                "id": 33,
+                "region_id": 33,
+                "name": "الأزاريطة"
+            },
+            "address": "labore",
+            "is_fav": false,
+            "rate": 0,
+            "rate_count": 0,
+            "open": false,
+            "link_google_play": "google",
+            "link_apple_store": "apple_store",
+            "qr_image": "http://backend.eizymenu.com/assets/images/no-image.png",
+            "lat": "-22.681435",
+            "lng": "74.055706"
+        },
+        {
+            "id": 3,
+            "restaurant_id": 3,
+            "branch_type_id": 2,
+            "branch_type_name": "اكل بيتى",
+            "theme_code": "homefood",
+            "sub_theme_code": "homefood",
+            "name": "مطبخ الشيف مريم",
+            "description": "مطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريممطبخ الشيف مريم",
+            "logo": "http://backend.eizymenu.com/storage/restaurant/XWMv1xbIsexrTbSRlyYMxyU4PgVJp0IAVKejn9GB.jpg",
+            "country": {
+                "id": 1,
+                "country_id": 1,
+                "name": "مصر"
+            },
+            "governorate": {
+                "id": 6,
+                "governorate_id": 6,
+                "name": "البحر الأحمر"
+            },
+            "region": {
+                "id": 99,
+                "region_id": 99,
+                "name": "سفاجا"
+            },
+            "address": "provident",
+            "is_fav": false,
+            "rate": 0,
+            "rate_count": 0,
+            "open": false,
+            "link_google_play": "google",
+            "link_apple_store": "apple_store",
+            "qr_image": "http://backend.eizymenu.com/assets/images/no-image.png",
+            "lat": "11.008395",
+            "lng": "-151.897231"
+        },
+        {
+            "id": 4,
+            "restaurant_id": 4,
+            "branch_type_id": 1,
+            "branch_type_name": "مطاعم وكافيهات",
+            "theme_code": "Restaurantcafe",
+            "sub_theme_code": "Restaurantcafe_Generalresturant",
+            "name": "ويف للماكولات والمشروبات ثيم جديد هيتربط بيه",
+            "description": "ويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروباتويف للماكولات والمشروبات",
+            "logo": "http://backend.eizymenu.com/storage/restaurant/woQqCaMgrPzu5qHGbyDHfFTuDrCQWzDlfdfv1BXi.jpg",
+            "country": {
+                "id": 1,
+                "country_id": 1,
+                "name": "مصر"
+            },
+            "governorate": {
+                "id": 13,
+                "governorate_id": 13,
+                "name": "الفيوم"
+            },
+            "region": {
+                "id": 220,
+                "region_id": 220,
+                "name": "يوسف الصديق"
+            },
+            "address": "dolor",
+            "is_fav": false,
+            "rate": 0,
+            "rate_count": 0,
+            "open": false,
+            "link_google_play": "google",
+            "link_apple_store": "apple_store",
+            "qr_image": "http://backend.eizymenu.com/assets/images/no-image.png",
+            "lat": "16.516403",
+            "lng": "-152.452113"
+        }
+    ],
+    "message": "List of Restaurant if send branch type",
+    "status": true,
+    "paginator": {
+        "total": 4,
+        "count": 4,
+        "currentPage": 1,
+        "lastPage": 1,
+        "hasMorePages": false,
+        "nextPageUrl": null,
+        "previousPageUrl": null
+    }
+}

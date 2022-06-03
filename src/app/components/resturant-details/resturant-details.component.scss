@@ -1,0 +1,46 @@
+.resturants {
+    text-align: right;
+    .resturant_name,
+    .resturant_products_name {
+        width: 94%;
+    }
+    p {
+        margin-top: -11px;
+    }
+}
+
+.bg-light-danger {
+    background: #f7e1ea;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    .fa-heart-o {
+        margin: 0px 5px;
+        line-height: 29px;
+    }
+}
+
+.img_container {
+    width: 126px;
+    height: 100px;
+    img {
+        border-radius: 7px;
+    }
+}
+
+.resturant_container {
+    box-shadow: 0 5px 19px 0 rgba(241, 219, 236, 0.983);
+    border-radius: 11px;
+}
+
+.restaurant_details {
+    margin-top: -21px;
+}
+
+.btn-order {
+    background: #f7e1ea;
+    outline: none;
+    border-radius: 20px;
+    width: 122px;
+}
